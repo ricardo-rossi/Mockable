@@ -1,0 +1,39 @@
+{
+  "name": "mockable",
+  "description": "Quick and dirty API mocking for your client",
+  "version": "0.0.1",
+  "url": "http://github.com/cloudhead/node-static",
+  "keywords": [
+    "http", "api", "mock", "server", "rest", "restful", "json", "GET", "POST", "PUT", "DELETE", "PATCH"
+  ],
+  "author": {
+    "name": "Ricardo Rossi",
+    "email": "rrossi@endata.com"
+  },
+  "contributors": [
+    {
+      "name": "Jim Lavin",
+      "email": "jlavin@jimlavin.net"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cloudhead/node-static"
+  },
+  "main": "./lib/mockable.js",
+  "bin": {
+    "mockable": "bin/cli.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "~0.7.4"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cloudhead/node-static/issues"
+  },
+  "homepage": "https://github.com/cloudhead/node-static"
+}
