@@ -2,7 +2,7 @@
 
 "use strict";
 
-var mockable = require('../lib/mockable');
+var mockable = require('./../lib/mockable');
 
 var argv = require('optimist')
   .usage([
