@@ -1,3 +1,7 @@
+/**
+ * mockable.js
+ */
+
 "use strict";
 
 var mockable = require('../lib/mockable');
