@@ -33,40 +33,62 @@ $ npm install -g mockable
 
 ### Usage
 
-serve up the current directory   
+#### CLI Option   
+Mockable comes with its own CLI that you can run from your terminal as shown below:
+
+Serve up the current directory   
 ```
 $ mockable
 serving "." at http://127.0.0.1:9081
 ```
 
-serve up using port 9082  
+Serve up using port 9082  
 ```
 $ mockable -p 9082
 serving "." at http://127.0.0.1:9082
 ```
 
-serve up a different directory   
+Serve up a different directory   
 ```
 $ mockable public
 serving "public" at http://127.0.0.1:9081
 ```
 
-specify additional headers (this one is useful for development)   
+Specify additional headers (this one is useful for development)   
 ```
 $ mockable -H '{"Cache-Control": "no-cache, must-revalidate"}'
 serving "." at http://127.0.0.1:9081
 ```
 
-set cache control max age   
+Set cache control max age   
 ```
 $ mockable -c 7200
 serving "." at http://127.0.0.1:9081
 ```
 
-show help message, including all options   
+Show help message, including all options   
 ```
 $ mockable -h
 ```
+#### Embedded Option  
+
+Alternatively, you can install Mockable locally:
+
+```
+$ npm install -g mockable
+```
+
+Then use it from within your own Node.js modules as shown:
+
+```
+var mockable = require('mockable');
+var server = new mockable.Server(9082, '.');
+server.run();
+```
+
+### Mocking APIs
+
+TODO
 
 ### Contributors
 
