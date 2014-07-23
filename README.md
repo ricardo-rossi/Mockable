@@ -94,7 +94,7 @@ Mocking APIs with Mockable is easy. Just follow this simple rule:
 
 To Mock this:  
 ```
-A request using an HTTP 'METHOD_NAME' to /A/B/C
+A request to /A/B/C using 'HTTP_METHOD_NAME'
 ```
 
 Do this: Create the following directory structure under your 'served' directory:  
@@ -102,12 +102,12 @@ Do this: Create the following directory structure under your 'served' directory:
 A
 └── B
 ```
-Then create a file names METHOD_NAME.C.json and put some JSON in it. 
-(Replace METHOD_NAME with the corresponding GET, POST, PUT, DELETE, etc.)
+Then create a file names HTTP_METHOD_NAME.C.json and put some JSON in it. 
+(Replace HTTP_METHOD_NAME with the corresponding GET, POST, PUT, DELETE, etc.)
 ```
 A
 └── B
-    └── METHOD_NAME.C.json
+    └── HTTP_METHOD_NAME.C.json
 ```
 
 ### Some Examples
