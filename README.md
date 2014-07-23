@@ -92,17 +92,25 @@ server.run();
 Mocking APIs with Mockable is easy. Just follow this simple rule:
 
 
-To Mock this:
+To Mock this:  
 ```
-A request using an HTTP METHOD to /A/B/C
+A request using an HTTP 'METHOD_NAME' to /A/B/C
 ```
-Create the following directory structure user your 'served' directory:  
+
+Do this: Create the following directory structure user your 'served' directory:  
 ```
 A
 └── B
-    └── METHOD.C.json
+```
+and place some JSON in the METHOD_NAME.C.json file. 
+Replace METHOD_NAME with the corresponding GET, POST, PUT, DELETE, etc.
+```
+A
+└── B
+    └── METHOD_NAME.C.json
 ```
 
+### Some Examples
 
 To Mock the following API request:
 ```
@@ -118,12 +126,6 @@ api
 
 #### Mocking PUT /api/users/123 
 TODO
-
-
-
-Let's take a look at these examples:
-
-
 
 #### Mocking GET /api/users/123 
 TODO
