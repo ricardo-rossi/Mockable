@@ -32,9 +32,42 @@ $ npm install -g mockable
 ```
 
 ### Usage
-  
-TODO  
-  
+
+serve up the current directory   
+```
+$ mockable
+serving "." at http://127.0.0.1:9081
+```
+
+serve up using port 9082  
+```
+$ mockable -p 9082
+serving "." at http://127.0.0.1:9082
+```
+
+serve up a different directory   
+```
+$ mockable public
+serving "public" at http://127.0.0.1:9081
+```
+
+specify additional headers (this one is useful for development)   
+```
+$ mockable -H '{"Cache-Control": "no-cache, must-revalidate"}'
+serving "." at http://127.0.0.1:9081
+```
+
+set cache control max age   
+```
+$ mockable -c 7200
+serving "." at http://127.0.0.1:9081
+```
+
+show help message, including all options   
+```
+$ mockable -h
+```
+
 ### Contributors
 
  * Author: [Ricardo Rossi](https://github.com/ricardo-rossi)
