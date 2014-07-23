@@ -11,12 +11,12 @@ If you often work on client-side code and need a quick way to simulate a server 
 
 ### Features
 
-  * Easily simulates any server APIs by simply placing mocked responses into files
+  * Easily simulates any server APIs by simply placing mocked responses into simple files
   * Supports any standard HTTP method (e.g., *GET*, *PUT*, *POST*, *DELETE*, etc)
   * Understands [RESTful APIs](http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming)
   * Comes with a built-in web server (using [node-static](https://github.com/cloudhead/node-static))
   * Zero configuration: Mock new APIs without restarting Mockable
-  * Supports JSON, XML, or whatever you want to use 
+  * Supports JSON, XML, or whatever else you want to use 
 
 
 ### Prerequisites
@@ -27,14 +27,15 @@ Please see [How to install Node.js and npm](http://blog.nodeknockout.com/post/65
 
 ### Installation
 
+The preferred installation method is using the -g (global) flag  
 ```
 $ npm install -g mockable
 ```
 
-### Usage
+### Running Mockable
 
 #### CLI Option   
-Mockable comes with its own CLI that you can run from your terminal as shown below:
+After you install Mockable globally (as shown above) you can run it from your terminal like this:
 
 Serve up the current directory   
 ```
@@ -87,6 +88,8 @@ server.run();
 ```
 
 ### Mocking APIs
+
+Mocking APIs with Mockable is easy. Let's take a look at these examples:
 
 TODO
 
