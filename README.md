@@ -8,6 +8,9 @@
 ### Overview
 
 If you often work on client-side code and need a quick way to simulate a server API, then Mockable is for you. 
+Mockable has its own HTTP server, can work via either a CLI interface or embedded in other modules, and supports 
+any HTTP method with zero configuration. It should have you mocking APIs in no time. Use it and let me know 
+if it's missing anything else you need ;)
 
 ### Features
 
