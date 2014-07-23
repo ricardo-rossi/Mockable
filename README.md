@@ -112,6 +112,8 @@ A
 
 ### Some Examples
 
+#### Mocking GET /api/users/123 
+
 To Mock the following API request:
 ```
 GET /api/users/123
@@ -122,7 +124,7 @@ Create a file with some mocked JSON such as:
     "name": "Ricardo Rossi"
 }
 ```
-And save is as GET.123.json under this directory structure:
+And save it as GET.123.json under this directory structure:
 ```
 api
 └── users
@@ -137,19 +139,58 @@ $ curl --request GET 'http://127.0.0.1:9081/api/users/123'
 ```
  
 #### Mocking PUT /api/users/123 
-TODO
 
-#### Mocking GET /api/users/123 
-TODO
+Same as above except name the file PUT.123.json instead
+
+#### Mocking DELETE /api/users/123 
+
+Same as above except name the file DELETE.123.json instead
 
 #### Mocking GET /api/users 
-TODO
 
-#### Mocking PUT /api/users/123 
-TODO
+To Mock the following API request:
+```
+GET /api/users
+```
+Create a file with some mocked JSON such as:
+```
+[
+    {
+        "name": "Ricardo Rossi"
+    },
+    {
+        "name": "John Doe"
+    },
+    {
+        "name": "Foo Bar"
+    }
+]
+```
+And save it as GET.index.json under this directory structure:
+```
+api
+└── users
+    └── GET.index.json
+```
+Run Mockable and test the API:
+```
+$ curl --request GET 'http://127.0.0.1:9081/api/users'
+[
+    {
+        "name": "Ricardo Rossi"
+    },
+    {
+        "name": "John Doe"
+    },
+    {
+        "name": "Foo Bar"
+    }
+]
+```
 
 #### Mocking POST /api/users
-TODO
+
+Same as above except name the file POST.index.json instead
 
 
 ### Contributors
