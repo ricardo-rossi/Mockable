@@ -10,24 +10,34 @@
 Mockable understands and supports RESTful APIs using any standard HTTP 
 method standard HTTP methods (e.g., *GET*, *PUT*, *POST*, or *DELETE*)
 
-To be written..
 
-Mockable was inspired by some of the other mock api node modules out there.
+### Features
 
-## Features
+  * Easily simulates any server APIs by simply placing mocked responses into files
+  * Supports any standard HTTP method (e.g., *GET*, *PUT*, *POST*, *DELETE*, etc)
+  * Understands [RESTful APIs](http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming)
+  * Comes with a built-in web server (using [node-static](https://github.com/cloudhead/node-static))
+  * Zero configuration: Mock new APIs without restarting Mockable
+  * Supports JSON, XML, or whatever you want to use 
 
-  * one
-  * two
 
 ## Installation
+
+Before you use Mockable, you need [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.org/).  
+For detailed instructions please see [How to install Node.js and npm](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm)
+
+
+### Install Mockable
 
 ```
 $ npm install mockable
 ```
 
+
 ## Usage
   
-blah  
+TODO  
+
   
 ### Contributors
 
