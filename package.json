@@ -1,7 +1,7 @@
 {
   "name": "mockable",
   "description": "Quick and dirty API mocking for your client",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "url": "https://github.com/ricardo-rossi/Mockable",
   "keywords": [
     "http", "api", "mock", "server", "rest", "restful", "json", "GET", "POST", "PUT", "DELETE", "PATCH"
@@ -20,10 +20,10 @@
     "type": "git",
     "url": "https://github.com/ricardo-rossi/Mockable"
   },
-  "main": "bin/cli.js",
+  "main": "./lib/mockable.js",
   "preferGlobal": "true",
   "bin": {
-    "mockable": "bin/cli.js"
+    "mockable": "./bin/cli.js"
   },
   "license": "MIT",
   "dependencies": {
