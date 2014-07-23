@@ -2,10 +2,10 @@
 
 [![NPM](https://nodei.co/npm/mockable.png?downloads=true)](https://nodei.co/npm/mockable/)
 
-> A quick and dirty way to mock APIs
-
 [![NPM version](https://badge.fury.io/js/mockable.svg)](http://badge.fury.io/js/mockable)
 [![dependencies](https://david-dm.org/ricardo-rossi/mockable.png)](https://david-dm.org/ricardo-rossi/mockable)
+
+> A quick and dirty way to mock APIs
 
 ## Overview
 
