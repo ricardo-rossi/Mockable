@@ -97,13 +97,13 @@ To Mock this:
 A request using an HTTP 'METHOD_NAME' to /A/B/C
 ```
 
-Do this: Create the following directory structure user your 'served' directory:  
+Do this: Create the following directory structure under your 'served' directory:  
 ```
 A
 └── B
 ```
-and place some JSON in the METHOD_NAME.C.json file. 
-Replace METHOD_NAME with the corresponding GET, POST, PUT, DELETE, etc.
+Then create a file names METHOD_NAME.C.json and put some JSON in it. 
+(Replace METHOD_NAME with the corresponding GET, POST, PUT, DELETE, etc.)
 ```
 A
 └── B
