@@ -1,7 +1,9 @@
 Mockable
 ========
 
-> A quick and dirty way to mock APIs using [node](http://nodejs.org)
+> A quick and dirty way to mock APIs
+
+[![NPM version](https://badge.fury.io/js/mockable.svg)](http://badge.fury.io/js/mockable)
 
 Synopsis
 --------
