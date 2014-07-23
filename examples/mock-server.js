@@ -1,5 +1,9 @@
 /**
- * mockable.js
+ * Mockable - mock-server.js
+ *
+ * Copyright (c) 2014 Ricardo Rossi, contributors
+ * Licensed under the MIT license.
+ * https://github.com/ricardo-rossi/Mockable/blob/master/LICENSE
  */
 
 "use strict";
