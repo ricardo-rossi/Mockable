@@ -102,7 +102,7 @@ Do this: Create the following directory structure under your 'served' directory:
 A
 └── B
 ```
-Then create a file names HTTP_METHOD_NAME.C.json and put some JSON in it. 
+Then create a file names HTTP_METHOD_NAME.C.json and mock some JSON in it. 
 (Replace HTTP_METHOD_NAME with the corresponding GET, POST, PUT, DELETE, etc.)
 ```
 A
@@ -116,14 +116,26 @@ To Mock the following API request:
 ```
 GET /api/users/123
 ```
-Place the 
+Create a file with some mocked JSON such as:
+```
+{
+    "name": "Ricardo Rossi"
+}
+```
+And save is as GET.123.json under this directory structure:
 ```
 api
 └── users
     └── GET.123.json
 ```
+Run Mockable and test the API:
+```
+$ curl --request GET 'http://127.0.0.1:9081//api/users/123
+{
+    "name": "Ricardo Rossi"
+}
+```
  
-
 #### Mocking PUT /api/users/123 
 TODO
 
