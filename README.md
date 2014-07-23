@@ -1,11 +1,9 @@
 #Mockable
 > A quick and dirty way to mock APIs
 
-[![NPM](https://nodei.co/npm/mockable.png?downloads=true)](https://nodei.co/npm/mockable/)
-
+[![NPM](https://nodei.co/npm/mockable.png?downloads=true)](https://nodei.co/npm/mockable/)  
 [![NPM version](https://badge.fury.io/js/mockable.svg)](http://badge.fury.io/js/mockable)
 [![dependencies](https://david-dm.org/ricardo-rossi/mockable.png)](https://david-dm.org/ricardo-rossi/mockable)
-
 
 ## Overview
 
@@ -16,16 +14,20 @@ To be written..
 
 Mockable was inspired by some of the other mock api node modules out there.
 
-### Installation
+## Features
+
+  * one
+  * two
+
+## Installation
 
 ```
 $ npm install mockable
 ```
 
-## Features
-
-  * one
-  * two
+## Usage
+  
+blah  
   
 ### Contributors
 
