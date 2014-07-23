@@ -192,6 +192,10 @@ $ curl --request GET 'http://127.0.0.1:9081/api/users'
 
 Same as above except name the file POST.index.json instead
 
+### Feedback
+
+Found an issue? [Enter it here](https://github.com/ricardo-rossi/Mockable/issues) or fix 
+it using a [Pull Request](https://github.com/ricardo-rossi/Mockable/pulls)
 
 ### Contributors
 
