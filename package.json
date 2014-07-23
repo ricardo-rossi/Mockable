@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://github.com/ricardo-rossi/Mockable"
   },
-  "main": "lib/mockable.js",
+  "main": "bin/cli.js",
   "preferGlobal": "true",
   "bin": {
     "mockable": "bin/cli.js"

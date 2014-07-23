@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-"use strict";
-
 var mockable = require('./../lib/mockable');
 
 var argv = require('optimist')
