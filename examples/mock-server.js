@@ -6,6 +6,6 @@
 
 var mockable = require('../lib/mockable');
 
-var server = new mockable.Server();
+var server = new mockable.Server(9082, '.');
 
 server.run();

@@ -28,7 +28,7 @@ Please see [How to install Node.js and npm](http://blog.nodeknockout.com/post/65
 ### Installation
 
 ```
-$ npm install mockable
+$ npm install -g mockable
 ```
 
 ### Usage
