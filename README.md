@@ -72,13 +72,13 @@ $ mockable -h
 ```
 #### Embedded Option  
 
-Alternatively, you can install Mockable locally:
+Alternatively, you can install Mockable locally.
 
 ```
-$ npm install -g mockable
+$ npm install mockable
 ```
 
-Then use it from within your own Node.js modules as shown:
+And then use it from within your own Node.js modules as shown:
 
 ```
 var mockable = require('mockable');
