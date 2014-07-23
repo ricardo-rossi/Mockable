@@ -7,8 +7,7 @@
 
 ### Overview
 
-Mockable understands and supports RESTful APIs using any standard HTTP 
-method standard HTTP methods (e.g., *GET*, *PUT*, *POST*, or *DELETE*)
+If you often work on client-side code and need a quick way to simulate a server API, then Mockable is for you. 
 
 ### Features
 
@@ -22,8 +21,8 @@ method standard HTTP methods (e.g., *GET*, *PUT*, *POST*, or *DELETE*)
 
 ### Prerequisites
 
-Before you use Mockable, you need [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.org/).  
-For detailed instructions please see [How to install Node.js and npm](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm)
+Before you use Mockable, you need [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.org/). 
+Please see [How to install Node.js and npm](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm)
 
 
 ### Installation
