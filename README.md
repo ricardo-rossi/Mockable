@@ -89,9 +89,54 @@ server.run();
 
 ### Mocking APIs
 
-Mocking APIs with Mockable is easy. Let's take a look at these examples:
+Mocking APIs with Mockable is easy. Just follow this simple rule:
 
+
+To Mock this:
+```
+A request using an HTTP METHOD to /A/B/C
+```
+Create the following directory structure user your 'served' directory:  
+```
+A
+└── B
+    └── METHOD.C.json
+```
+
+
+To Mock the following API request:
+```
+GET /api/users/123
+```
+Place the 
+```
+api
+└── users
+    └── GET.123.json
+```
+ 
+
+#### Mocking PUT /api/users/123 
 TODO
+
+
+
+Let's take a look at these examples:
+
+
+
+#### Mocking GET /api/users/123 
+TODO
+
+#### Mocking GET /api/users 
+TODO
+
+#### Mocking PUT /api/users/123 
+TODO
+
+#### Mocking POST /api/users
+TODO
+
 
 ### Contributors
 
