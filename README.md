@@ -130,7 +130,7 @@ api
 ```
 Run Mockable and test the API:
 ```
-$ curl --request GET 'http://127.0.0.1:9081//api/users/123
+$ curl --request GET 'http://127.0.0.1:9081/api/users/123'
 {
     "name": "Ricardo Rossi"
 }
