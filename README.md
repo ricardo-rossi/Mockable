@@ -36,5 +36,5 @@ Mockable was inspired by some of the other mock api node modules out there.
 
 ### License
 
-  [MIT](LICENSE)
+  Mockable is open-source software licensed under the [MIT license](LICENSE)
   
