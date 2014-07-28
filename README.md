@@ -25,7 +25,7 @@ if it's missing anything else you need ;)
 
 ### Prerequisites
 
-Before you use Mockable, you need [Node.js](http://nodejs.org/) and [npm](https://www.npmjs.org/). 
+Before you use Mockable, you need [Node.js](http://nodejs.org/) v0.8 or higher and [npm](https://www.npmjs.org/). 
 Please see [How to install Node.js and npm](http://blog.nodeknockout.com/post/65463770933/how-to-install-node-js-and-npm)
 
 
