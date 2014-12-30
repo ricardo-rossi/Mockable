@@ -3,7 +3,6 @@
 
 [![NPM](https://nodei.co/npm/mockable.png?downloads=true)](https://nodei.co/npm/mockable/)  
 [![NPM version](https://badge.fury.io/js/mockable.svg)](http://badge.fury.io/js/mockable)
-[![dependencies](https://david-dm.org/ricardo-rossi/mockable.png)](https://david-dm.org/ricardo-rossi/mockable)
 [![Travis](https://travis-ci.org/ricardo-rossi/Mockable.svg?branch=master)](https://travis-ci.org/ricardo-rossi/Mockable)
 
 ### Overview
